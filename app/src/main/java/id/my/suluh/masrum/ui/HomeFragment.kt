@@ -24,7 +24,7 @@ class HomeFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState);
+        super.onViewCreated(view, savedInstanceState)
 
         with(binding) {
             iconGithub.setOnClickListener {
@@ -42,9 +42,9 @@ class HomeFragment : Fragment() {
     }
 
     private fun openUrl(url: String) {
-        val intent = Intent(Intent.ACTION_VIEW);
-        intent.data = Uri.parse(url);
-        startActivity(intent);
+        val intent = Intent(Intent.ACTION_VIEW)
+        intent.data = Uri.parse(url)
+        startActivity(intent)
     }
 
     override fun onDestroyView() {

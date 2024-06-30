@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,6 +18,7 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginVertical="16dp"
             android:adjustViewBounds="true"
             android:contentDescription="@string/app_name"
             android:scaleType="fitCenter"
@@ -47,7 +49,9 @@
                     android:text="@string/about_app_description"
                     android:textAppearance="?attr/textAppearanceBodyMedium"
                     android:textColor="?android:attr/textColorSecondary" />
+
             </LinearLayout>
+
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -75,7 +79,9 @@
                     android:text="@string/dataset_source_description"
                     android:textAppearance="?attr/textAppearanceBodyMedium"
                     android:textColor="?android:attr/textColorSecondary" />
+
             </LinearLayout>
+
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -103,7 +109,9 @@
                     android:text="@string/how_to_use_description"
                     android:textAppearance="?attr/textAppearanceBodyMedium"
                     android:textColor="?android:attr/textColorSecondary" />
+
             </LinearLayout>
+
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -139,7 +147,8 @@
                         android:layout_height="24dp"
                         android:layout_marginEnd="16dp"
                         android:contentDescription="@string/social_github"
-                        android:src="@drawable/ic_github" />
+                        android:src="@drawable/ic_github"
+                        app:tint="@color/md_theme_onSecondaryFixed" />
 
                     <ImageView
                         android:id="@+id/icon_linkedin"
@@ -147,16 +156,21 @@
                         android:layout_height="24dp"
                         android:layout_marginEnd="16dp"
                         android:contentDescription="@string/social_linkedin"
-                        android:src="@drawable/ic_linkedin" />
+                        android:src="@drawable/ic_linkedin"
+                        app:tint="@color/md_theme_onSecondaryFixed" />
 
                     <ImageView
                         android:id="@+id/icon_instagram"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:contentDescription="@string/social_instagram"
-                        android:src="@drawable/ic_instagram" />
+                        android:src="@drawable/ic_instagram"
+                        app:tint="@color/md_theme_onSecondaryFixed" />
+
                 </LinearLayout>
+
             </LinearLayout>
+
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>

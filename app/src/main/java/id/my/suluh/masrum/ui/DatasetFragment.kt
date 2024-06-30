@@ -4,11 +4,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import id.my.suluh.masrum.adapter.TableAdapter
 import id.my.suluh.masrum.databinding.FragmentDatasetBinding
-import id.my.suluh.masrum.viewmodel.DatasetViewModel
 
 class DatasetFragment : Fragment() {
 
@@ -21,18 +20,35 @@ class DatasetFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val datasetViewModel = ViewModelProvider(this)[DatasetViewModel::class.java]
-
         _binding = FragmentDatasetBinding.inflate(inflater, container, false)
+        return binding.root
+    }
 
-        val root: View = binding.root
-        val textView: TextView = binding.textDataset
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
-        datasetViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+        val columnHeaders = listOf("class", "cap-shape", "cap-surface", "cap-color", "bruises", "odor",
+            "gill-attachment", "gill-spacing", "gill-size", "gill-color", "stalk-shape", "stalk-root",
+            "stalk-surface-above-ring", "stalk-surface-below-ring", "stalk-color-above-ring",
+            "stalk-color-below-ring", "veil-type", "veil-color", "ring-number", "ring-type",
+            "spore-print-color", "population", "habitat")
+        val rowData = listOf(
+            listOf("e", "x", "s", "n", "t", "p", "f", "c", "n", "k", "e", "e", "s", "s", "w", "w", "p", "w", "o", "p", "k", "s", "u"),
+            listOf("p", "x", "y", "n", "f", "a", "f", "c", "n", "b", "e", "c", "s", "s", "w", "w", "p", "w", "o", "p", "k", "n", "g"),
+            listOf("e", "x", "s", "g", "f", "c", "a", "d", "n", "g", "b", "b", "k", "k", "y", "y", "p", "y", "t", "p", "b", "m", "d"),
+            listOf("p", "b", "y", "y", "f", "l", "a", "w", "b", "y", "e", "f", "m", "h", "w", "h", "f", "w", "o", "e", "w", "v", "d"),
+            listOf("e", "a", "s", "n", "t", "a", "a", "c", "n", "h", "e", "b", "y", "m", "y", "h", "f", "y", "t", "p", "n", "y", "g")
+        )
+
+        val data = mutableListOf<List<String>>()
+        data.add(columnHeaders)
+        data.addAll(rowData)
+        val adapter = TableAdapter(data)
+
+        with (binding) {
+            recyclerView.layoutManager = LinearLayoutManager(requireContext())
+            recyclerView.adapter = adapter
         }
-
-        return root
     }
 
     override fun onDestroyView() {
