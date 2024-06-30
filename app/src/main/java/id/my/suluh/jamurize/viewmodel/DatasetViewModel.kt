@@ -1,13 +1,15 @@
-package id.my.suluh.jamurize.ui.notifications
+package id.my.suluh.jamurize.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class DatasetViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "Dataset fragment"
     }
+
     val text: LiveData<String> = _text
+
 }

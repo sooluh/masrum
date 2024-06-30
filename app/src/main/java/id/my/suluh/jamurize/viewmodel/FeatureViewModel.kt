@@ -1,13 +1,15 @@
-package id.my.suluh.jamurize.ui.dashboard
+package id.my.suluh.jamurize.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class DashboardViewModel : ViewModel() {
+class FeatureViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "Fitur fragment"
     }
+
     val text: LiveData<String> = _text
+
 }
