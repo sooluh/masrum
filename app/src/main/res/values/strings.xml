@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">Jamurize</string>
+
     <string name="home">Utama</string>
     <string name="dataset">Dataset</string>
     <string name="feature">Fitur</string>
     <string name="model">Model</string>
     <string name="play">Simulasi</string>
+
+    <string name="about_app">Tentang</string>
+    <string name="about_app_description">Jamurize dirancang untuk membantu pengguna mengidentifikasi sebuah jamur apakah layak/bisa dimakan atau tidak, berdasarkan ciri-ciri yang terlihat pada suatu jamur. Dengan menggunakan algoritma pembelajaran mesin Artificial Neural Network (ANN).</string>
+
+    <string name="dataset_source">Sumber Dataset</string>
+    <string name="dataset_source_description">Dataset yang digunakan Jamurize dapat ditemukan pada situs Kaggle, silahkan menuju ke menu "Dataset" untuk informasi selengkapnya.</string>
+
+    <string name="how_to_use">Cara Penggunaan</string>
+    <string name="how_to_use_description">1. Masuk ke menu Simulasi\n2. Lengkapi data pada kolom yang tersedia\n3. Tekan tombol "Prediksi"\n4. Jamurize akan memberikan hasil prediksi</string>
 </resources>
