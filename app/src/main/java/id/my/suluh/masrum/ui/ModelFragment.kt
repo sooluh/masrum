@@ -1,4 +1,4 @@
-package id.my.suluh.jamurize.ui
+package id.my.suluh.masrum.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import id.my.suluh.jamurize.databinding.FragmentPlayBinding
-import id.my.suluh.jamurize.viewmodel.PlayViewModel
+import id.my.suluh.masrum.databinding.FragmentModelBinding
+import id.my.suluh.masrum.viewmodel.ModelViewModel
 
-class PlayFragment : Fragment() {
+class ModelFragment : Fragment() {
 
-    private var _binding: FragmentPlayBinding? = null
+    private var _binding: FragmentModelBinding? = null
 
     private val binding get() = _binding!!
 
@@ -21,12 +21,12 @@ class PlayFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val datasetViewModel = ViewModelProvider(this)[PlayViewModel::class.java]
+        val datasetViewModel = ViewModelProvider(this)[ModelViewModel::class.java]
 
-        _binding = FragmentPlayBinding.inflate(inflater, container, false)
+        _binding = FragmentModelBinding.inflate(inflater, container, false)
 
         val root: View = binding.root
-        val textView: TextView = binding.textPlay
+        val textView: TextView = binding.textModel
 
         datasetViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it

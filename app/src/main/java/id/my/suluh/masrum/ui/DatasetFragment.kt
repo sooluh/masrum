@@ -1,4 +1,4 @@
-package id.my.suluh.jamurize.ui
+package id.my.suluh.masrum.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import id.my.suluh.jamurize.databinding.FragmentFeatureBinding
-import id.my.suluh.jamurize.viewmodel.FeatureViewModel
+import id.my.suluh.masrum.databinding.FragmentDatasetBinding
+import id.my.suluh.masrum.viewmodel.DatasetViewModel
 
-class FeatureFragment : Fragment() {
+class DatasetFragment : Fragment() {
 
-    private var _binding: FragmentFeatureBinding? = null
+    private var _binding: FragmentDatasetBinding? = null
 
     private val binding get() = _binding!!
 
@@ -21,14 +21,14 @@ class FeatureFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val featureViewModel = ViewModelProvider(this)[FeatureViewModel::class.java]
+        val datasetViewModel = ViewModelProvider(this)[DatasetViewModel::class.java]
 
-        _binding = FragmentFeatureBinding.inflate(inflater, container, false)
+        _binding = FragmentDatasetBinding.inflate(inflater, container, false)
 
         val root: View = binding.root
-        val textView: TextView = binding.textFeature
+        val textView: TextView = binding.textDataset
 
-        featureViewModel.text.observe(viewLifecycleOwner) {
+        datasetViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
 

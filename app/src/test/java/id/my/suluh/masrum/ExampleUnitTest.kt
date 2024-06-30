@@ -1,4 +1,4 @@
-package id.my.suluh.jamurize
+package id.my.suluh.masrum
 
 import org.junit.Test
 

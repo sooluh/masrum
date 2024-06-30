@@ -1,13 +1,13 @@
-package id.my.suluh.jamurize.viewmodel
+package id.my.suluh.masrum.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class FeatureViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Utama fragment"
+        value = "Fitur fragment"
     }
 
     val text: LiveData<String> = _text

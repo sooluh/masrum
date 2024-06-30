@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "id.my.suluh.jamurize"
+    namespace = "id.my.suluh.masrum"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "id.my.suluh.jamurize"
+        applicationId = "id.my.suluh.masrum"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -26,20 +26,22 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
     buildFeatures {
         viewBinding = true
     }
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

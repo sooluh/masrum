@@ -1,4 +1,4 @@
-package id.my.suluh.jamurize.viewmodel
+package id.my.suluh.masrum.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

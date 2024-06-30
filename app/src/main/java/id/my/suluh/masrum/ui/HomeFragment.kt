@@ -1,11 +1,11 @@
-package id.my.suluh.jamurize.ui
+package id.my.suluh.masrum.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import id.my.suluh.jamurize.databinding.FragmentHomeBinding
+import id.my.suluh.masrum.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

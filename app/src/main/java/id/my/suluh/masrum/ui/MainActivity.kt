@@ -1,4 +1,4 @@
-package id.my.suluh.jamurize.ui
+package id.my.suluh.masrum.ui
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
-import id.my.suluh.jamurize.R
-import id.my.suluh.jamurize.databinding.ActivityMainBinding
+import id.my.suluh.masrum.R
+import id.my.suluh.masrum.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
