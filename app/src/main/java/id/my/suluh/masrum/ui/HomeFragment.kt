@@ -1,5 +1,7 @@
 package id.my.suluh.masrum.ui
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,7 +12,6 @@ import id.my.suluh.masrum.databinding.FragmentHomeBinding
 class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
-
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -20,6 +21,30 @@ class HomeFragment : Fragment() {
     ): View {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState);
+
+        with(binding) {
+            iconGithub.setOnClickListener {
+                openUrl("https://github.com/sooluh/masrum")
+            }
+
+            iconLinkedin.setOnClickListener {
+                openUrl("https://www.linkedin.com/in/suluhs")
+            }
+
+            iconInstagram.setOnClickListener {
+                openUrl("https://www.instagram.com/suluh_s")
+            }
+        }
+    }
+
+    private fun openUrl(url: String) {
+        val intent = Intent(Intent.ACTION_VIEW);
+        intent.data = Uri.parse(url);
+        startActivity(intent);
     }
 
     override fun onDestroyView() {
