@@ -22,4 +22,29 @@
     <string name="social_instagram">Instagram</string>
 
     <string name="dataset_description">Dataset yang Masrum gunakan adalah dataset milik @uciml, mushrom-classification berisi 8124 baris data dengan 23 kolom yang memuat informasi terkait ciri-ciri jamur.\n\nData tersebut mencakup informasi seperti bentuk cap, warna cap, populasi, habitat, dan sebagainya. Variable class menunjukkan jamur tersebut bisa dimakan (beracun) atau tidak.</string>
+
+    <string name="column_class">class</string>
+    <string name="column_cap_shape">cap-shape</string>
+    <string name="column_cap_surface">cap-surface</string>
+    <string name="column_cap_color">cap-color</string>
+    <string name="column_bruises">bruises</string>
+    <string name="column_odor">odor</string>
+    <string name="column_gill_attachment">gill-attachment</string>
+    <string name="column_gill_spacing">gill-spacing</string>
+    <string name="column_gill_size">gill-size</string>
+    <string name="column_gill_color">gill-color</string>
+    <string name="column_stalk_shape">stalk-shape</string>
+    <string name="column_stalk_root">stalk-root</string>
+    <string name="column_stalk_surface_above_ring">stalk-surface-above-ring</string>
+    <string name="column_stalk_surface_below_ring">stalk-surface-below-ring</string>
+    <string name="column_stalk_color_above_ring">stalk-color-above-ring</string>
+    <string name="column_stalk_color_below_ring">stalk-color-below-ring</string>
+    <string name="column_veil_type">veil-type</string>
+    <string name="column_veil_color">veil-color</string>
+    <string name="column_ring_number">ring-number</string>
+    <string name="column_ring_type">ring-type</string>
+    <string name="column_spore_print_color">spore-print-color</string>
+    <string name="column_population">population</string>
+    <string name="column_habitat">habitat</string>
+    <string name="open_in_kaggle">Lihat di Kaggle</string>
 </resources>

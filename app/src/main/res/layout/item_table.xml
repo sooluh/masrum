@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/column_class"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_class"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_cap_shape"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_cap_shape"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_cap_surface"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_cap_surface"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_cap_color"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_cap_color"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_bruises"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_bruises"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_odor"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_odor"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_gill_attachment"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_gill_attachment"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_gill_spacing"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_gill_spacing"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_gill_size"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_gill_size"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_gill_color"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_gill_color"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_stalk_shape"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_stalk_shape"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_stalk_root"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_stalk_root"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_stalk_surface_above_ring"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_stalk_surface_above_ring"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_stalk_surface_below_ring"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_stalk_surface_below_ring"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_stalk_color_above_ring"
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_stalk_color_above_ring"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_stalk_color_below_ring"
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_stalk_color_below_ring"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_veil_type"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_veil_type"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_veil_color"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_veil_color"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_ring_number"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_ring_number"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_ring_type"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_ring_type"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_spore_print_color"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_spore_print_color"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_population"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_population"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/column_habitat"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="6dp"
+        android:text="@string/column_habitat"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+</LinearLayout>
