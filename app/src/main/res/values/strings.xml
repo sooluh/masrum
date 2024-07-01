@@ -21,7 +21,8 @@
     <string name="social_linkedin">LinkedIn</string>
     <string name="social_instagram">Instagram</string>
 
-    <string name="dataset_description">Dataset yang Masrum gunakan adalah dataset milik @uciml, mushrom-classification berisi 8124 baris data dengan 23 kolom yang memuat informasi terkait ciri-ciri jamur.\n\nData tersebut mencakup informasi seperti bentuk cap, warna cap, populasi, habitat, dan sebagainya. Variable class menunjukkan jamur tersebut bisa dimakan (beracun) atau tidak.</string>
+    <string name="dataset_description">Dataset yang Masrum gunakan adalah dataset milik @uciml, mushroom-classification berisi 8124 baris data dengan 23 kolom yang memuat informasi terkait ciri-ciri jamur.\n\nData tersebut mencakup informasi seperti bentuk cap, warna cap, populasi, habitat, dan sebagainya. Variable class menunjukkan jamur tersebut bisa dimakan (beracun) atau tidak.</string>
+    <string name="feature_description">Masrum menggunakan 11 fitur dari 22 fitur yang ada pada dataset untuk menyederhanakan inputan pengguna. Namun, walaupun membuang sebagian besar fitur, Masrum tetap mempertahankan akurasi prediksi yang dihasilkan.</string>
 
     <string name="column_class">class</string>
     <string name="column_cap_shape">cap-shape</string>

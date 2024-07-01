@@ -5,10 +5,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import id.my.suluh.masrum.model.FeatureModel
+import id.my.suluh.masrum.model.TableModel
 import id.my.suluh.masrum.R
 
-class TableViewAdapter(private val featureLists: ArrayList<FeatureModel>) :
+class TableViewAdapter(private val featureLists: ArrayList<TableModel>) :
     RecyclerView.Adapter<TableViewAdapter.RowViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RowViewHolder {
         val itemView = LayoutInflater
@@ -17,41 +17,11 @@ class TableViewAdapter(private val featureLists: ArrayList<FeatureModel>) :
         return RowViewHolder(itemView)
     }
 
-    private fun setHeaderBg(view: View) {
-    }
-
-    private fun setContentBg(view: View) {
-    }
-
     override fun onBindViewHolder(holder: RowViewHolder, position: Int) {
         val rowPosition = holder.adapterPosition
 
         if (rowPosition == 0) {
             holder.apply {
-                setHeaderBg(columnClass)
-                setHeaderBg(columnCapShape)
-                setHeaderBg(columnCapSurface)
-                setHeaderBg(columnCapColor)
-                setHeaderBg(columnBruises)
-                setHeaderBg(columnOdor)
-                setHeaderBg(columnGillAttachment)
-                setHeaderBg(columnGillSpacing)
-                setHeaderBg(columnGillSize)
-                setHeaderBg(columnGillColor)
-                setHeaderBg(columnStalkShape)
-                setHeaderBg(columnStalkRoot)
-                setHeaderBg(columnStalkSurfaceAboveRing)
-                setHeaderBg(columnStalkSurfaceBelowRing)
-                setHeaderBg(columnStalkColorAboveRing)
-                setHeaderBg(columnStalkColorBelowRing)
-                setHeaderBg(columnVeilType)
-                setHeaderBg(columnVeilColor)
-                setHeaderBg(columnRingNumber)
-                setHeaderBg(columnRingType)
-                setHeaderBg(columnSporePrintColor)
-                setHeaderBg(columnPopulation)
-                setHeaderBg(columnHabitat)
-
                 columnClass.text = "class"
                 columnCapShape.text = "cap-shape"
                 columnCapSurface.text = "cap-surface"
@@ -80,30 +50,6 @@ class TableViewAdapter(private val featureLists: ArrayList<FeatureModel>) :
             val model = featureLists[rowPosition - 1]
 
             holder.apply {
-                setContentBg(columnClass)
-                setContentBg(columnCapShape)
-                setContentBg(columnCapSurface)
-                setContentBg(columnCapColor)
-                setContentBg(columnBruises)
-                setContentBg(columnOdor)
-                setContentBg(columnGillAttachment)
-                setContentBg(columnGillSpacing)
-                setContentBg(columnGillSize)
-                setContentBg(columnGillColor)
-                setContentBg(columnStalkShape)
-                setContentBg(columnStalkRoot)
-                setContentBg(columnStalkSurfaceAboveRing)
-                setContentBg(columnStalkSurfaceBelowRing)
-                setContentBg(columnStalkColorAboveRing)
-                setContentBg(columnStalkColorBelowRing)
-                setContentBg(columnVeilType)
-                setContentBg(columnVeilColor)
-                setContentBg(columnRingNumber)
-                setContentBg(columnRingType)
-                setContentBg(columnSporePrintColor)
-                setContentBg(columnPopulation)
-                setContentBg(columnHabitat)
-
                 columnClass.text = model.columnClass
                 columnCapShape.text = model.columnCapShape
                 columnCapSurface.text = model.columnCapSurface
@@ -131,9 +77,7 @@ class TableViewAdapter(private val featureLists: ArrayList<FeatureModel>) :
         }
     }
 
-    override fun getItemCount(): Int {
-        return featureLists.size + 1
-    }
+    override fun getItemCount(): Int = featureLists.size + 1
 
     inner class RowViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val columnClass: TextView = itemView.findViewById(R.id.column_class)

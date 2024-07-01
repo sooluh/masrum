@@ -14,7 +14,7 @@
         android:padding="16dp">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/about_app"
+            android:id="@+id/dataset_page"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp">
