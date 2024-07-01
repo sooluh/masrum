@@ -44,11 +44,11 @@ class DatasetFragment : Fragment() {
     }
 
     private val featureLists = ArrayList<TableModel>().apply {
-        add(TableModel("e", "x", "s", "n", "t", "p", "f", "c", "n", "k", "e", "e", "s", "s", "w", "w", "p", "w", "o", "p", "k", "s", "u"))
-        add(TableModel("p", "x", "y", "n", "f", "a", "f", "c", "n", "b", "e", "c", "s", "s", "w", "w", "p", "w", "o", "p", "k", "n", "g"))
-        add(TableModel("e", "x", "s", "g", "f", "c", "a", "d", "n", "g", "b", "b", "k", "k", "y", "y", "p", "y", "t", "p", "b", "m", "d"))
-        add(TableModel("p", "b", "y", "y", "f", "l", "a", "w", "b", "y", "e", "f", "m", "h", "w", "h", "f", "w", "o", "e", "w", "v", "d"))
-        add(TableModel("e", "a", "s", "n", "t", "a", "a", "c", "n", "h", "e", "b", "y", "m", "y", "h", "f", "y", "t", "p", "n", "y", "g"))
+        add(TableModel("p", "x", "s", "n", "t", "p", "f", "c", "n", "k", "e", "e", "s", "s", "w", "w", "p", "w", "o", "p", "k", "s", "u"))
+        add(TableModel("e", "x", "s", "y", "t", "a", "f", "c", "b", "k", "e", "c", "s", "s", "w", "w", "p", "w", "o", "p", "n", "n", "g"))
+        add(TableModel("e", "b", "s", "w", "t", "l", "f", "c", "b", "n", "e", "c", "s", "s", "w", "w", "p", "w", "o", "p", "n", "n", "m"))
+        add(TableModel("p", "x", "y", "w", "t", "p", "f", "c", "n", "n", "e", "e", "s", "s", "w", "w", "p", "w", "o", "p", "k", "s", "u"))
+        add(TableModel("e", "x", "s", "g", "f", "n", "f", "w", "b", "k", "t", "e", "s", "s", "w", "w", "p", "w", "o", "e", "n", "a", "g"))
     }
 
     override fun onDestroyView() {
