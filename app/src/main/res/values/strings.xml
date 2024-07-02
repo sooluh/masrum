@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Masrum</string>
     <string name="app_author">Suluh Sulistiawan</string>
+    <string name="app_description">Lorem Ipsum Dolor Sit Amet</string>
 
     <string name="home">Utama</string>
     <string name="dataset">Dataset</string>
@@ -51,6 +52,127 @@
     <string name="column_habitat">habitat</string>
 
     <string name="open_in_kaggle">Lihat di Kaggle</string>
-    <string name="lets_go">Let\'s Go</string>
-    <string name="app_description">Lorem Ipsum Dolor Sit Amet</string>
+    <string name="lets_go">Buka Aplikasi</string>
+    <string name="predict">Prediksi</string>
+    <string name="question_gill_color">Apa warna insang jamur?</string>
+    <string name="question_ring_number">Jumlah cincin pada jamur?</string>
+    <string name="question_ring_type">Jenis cincin pada jamur?</string>
+    <string name="question_population">Populasi jamur?</string>
+    <string name="question_habitat">Di habitat mana jamur ditemukan?</string>
+    <string name="question_bruises">Apakah jamur ini memar?</string>
+    <string name="question_gill_size">Berapa ukuran insang jamur?</string>
+    <string name="question_spore_print_color">Apa warna cetakan spora pada jamur?</string>
+    <string name="question_cap_shape">Bentuk topi jamur?</string>
+    <string name="question_cap_surface">Tekstur permukaan topi pada jamur?</string>
+    <string name="question_cap_color">Warna topi jamur</string>
+
+    <string name="hint_gill_color">Silahkan pilih warna insang yang tersedia</string>
+    <string name="hint_ring_number">Silahkan pilih jumlah cincin yang tersedia</string>
+    <string name="hint_ring_type">Silahkan pilih jenis cincin yang tersedia</string>
+    <string name="hint_population">Silahkan pilih populasi yang tersedia</string>
+    <string name="hint_habitat">Silahkan pilih habitat yang tersedia</string>
+    <string name="hint_bruises">Pilih ya atau tidak</string>
+    <string name="hint_gill_size">Silahkan pilih ukuran yang tersedia</string>
+    <string name="hint_spore_print_color">Silahkan pilih warna yang tersedia</string>
+    <string name="hint_cap_shape">Silahkan pilih bentuk yang tersedia</string>
+    <string name="hint_cap_surface">Silahkan pilih tekstur yang tersedia</string>
+    <string name="hint_cap_color">Silahkan pilih warna topi yang tersedia</string>
+
+    <string-array name="cap_shape">
+        <item>Bell</item>
+        <item>Conical</item>
+        <item>Convex</item>
+        <item>Flat</item>
+        <item>Knobbed</item>
+    </string-array>
+
+    <string-array name="cap_surface">
+        <item>Scaly</item>
+        <item>Smooth</item>
+        <item>Fibrous</item>
+        <item>Grooves</item>
+    </string-array>
+
+    <string-array name="cap_color">
+        <item>Brown</item>
+        <item>Buff</item>
+        <item>Cinnamon</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="bruises">
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+
+    <string-array name="spore_print_color">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Buff</item>
+        <item>Chocolate</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Purple</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="gill_size">
+        <item>Broad</item>
+        <item>Narrow</item>
+    </string-array>
+
+    <string-array name="habitat">
+        <item>Grasses</item>
+        <item>Leaves</item>
+        <item>Meadows</item>
+        <item>Paths</item>
+        <item>Urban</item>
+        <item>Waste</item>
+        <item>Wood</item>
+    </string-array>
+
+    <string-array name="population">
+        <item>Several</item>
+        <item>Solitary</item>
+        <item>Scattered</item>
+        <item>Numerous</item>
+        <item>Abundant</item>
+        <item>Clustered</item>
+    </string-array>
+
+    <string-array name="ring_type">
+        <item>None</item>
+        <item>Pendant</item>
+        <item>Evanescent</item>
+        <item>Large</item>
+        <item>Flaring</item>
+    </string-array>
+
+    <string-array name="gill_color">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Buff</item>
+        <item>Chocolate</item>
+        <item>Gray</item>
+        <item>Pink</item>
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array name="ring_number">
+        <item>Satu</item>
+        <item>Dua</item>
+        <item>Tidak Ada</item>
+    </string-array>
 </resources>
