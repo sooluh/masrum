@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Masrum</string>
     <string name="app_author">Suluh Sulistiawan</string>
-    <string name="app_description">Lorem Ipsum Dolor Sit Amet</string>
+    <string name="app_description">Selamat datang di Masrum, Aplikasi yang bisa membantu Anda mengidentifikasi sebuah jamur apakah layak dimakan atau tidak.</string>
 
     <string name="home">Utama</string>
     <string name="dataset">Dataset</string>
