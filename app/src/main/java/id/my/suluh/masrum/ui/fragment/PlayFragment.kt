@@ -149,12 +149,11 @@ class PlayFragment : Fragment() {
                         com.google.android.material.R.style.ThemeOverlay_Material3_MaterialAlertDialog_Centered
                     )
                         .setTitle("Hasil Prediksi")
-                        .setMessage("Jamur ini tidak layak dimakan!")
+                        .setMessage("Hati-hati! Jamur ini tidak layak untuk dimakan.")
                         .setNegativeButton("Tutup") { dialog, _ ->
                             dialog.cancel()
                             reset()
                         }
-                        .setIconAttribute(android.R.attr.alertDialogIcon)
                         .show()
                 } else {
                     MaterialAlertDialogBuilder(
@@ -162,12 +161,11 @@ class PlayFragment : Fragment() {
                         com.google.android.material.R.style.ThemeOverlay_Material3_MaterialAlertDialog_Centered
                     )
                         .setTitle("Hasil Prediksi")
-                        .setMessage("Jamur ini layak dimakan, namun pastikan untuk memasaknya dengan benar")
+                        .setMessage("Jamur ini layak dimakan, namun pastikan untuk memasaknya dengan benar.")
                         .setNegativeButton("Tutup") { dialog, _ ->
                             dialog.cancel()
                             reset()
                         }
-                        .setIconAttribute(android.R.attr.alertDialogIcon)
                         .show()
                 }
             }

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Masrum</string>
     <string name="app_author">Suluh Sulistiawan</string>
-    <string name="app_description">Selamat datang di Masrum, Aplikasi yang bisa membantu Anda mengidentifikasi sebuah jamur apakah layak dimakan atau tidak.</string>
+    <string name="app_description">Selamat datang di Masrum, Aplikasi yang bisa membantu kamu untuk mengidentifikasi sebuah jamur apakah layak dimakan atau tidak.</string>
 
     <string name="home">Utama</string>
     <string name="dataset">Dataset</string>
@@ -79,95 +79,95 @@
     <string name="hint_cap_color">Silahkan pilih warna topi yang tersedia</string>
 
     <string-array name="cap_shape">
-        <item>Bell</item>
-        <item>Conical</item>
-        <item>Convex</item>
-        <item>Flat</item>
-        <item>Knobbed</item>
+        <item>Berbentuk Lonceng</item>
+        <item>Berbentuk Kerucut</item>
+        <item>Berbentuk Cembung</item>
+        <item>Berbentuk Datar</item>
+        <item>Berbentuk Kuncup</item>
     </string-array>
 
     <string-array name="cap_surface">
-        <item>Scaly</item>
-        <item>Smooth</item>
-        <item>Fibrous</item>
-        <item>Grooves</item>
+        <item>Permukaan Bersisik</item>
+        <item>Permukaan Halus</item>
+        <item>Permukaan Berserat</item>
+        <item>Permukaan Beralur</item>
     </string-array>
 
     <string-array name="cap_color">
-        <item>Brown</item>
-        <item>Buff</item>
-        <item>Cinnamon</item>
-        <item>Gray</item>
-        <item>Green</item>
-        <item>Pink</item>
-        <item>Purple</item>
-        <item>Red</item>
-        <item>White</item>
-        <item>Yellow</item>
+        <item>Coklat</item>
+        <item>Kuning Pucat</item>
+        <item>Coklat Kayu Manis</item>
+        <item>Abu-abu</item>
+        <item>Hijau</item>
+        <item>Merah Muda</item>
+        <item>Ungu</item>
+        <item>Merah</item>
+        <item>Putih</item>
+        <item>Kuning</item>
     </string-array>
 
     <string-array name="bruises">
-        <item>Ya</item>
-        <item>Tidak</item>
+        <item>Memar</item>
+        <item>Tidak Ada Memar</item>
     </string-array>
 
     <string-array name="spore_print_color">
-        <item>Black</item>
-        <item>Brown</item>
-        <item>Buff</item>
-        <item>Chocolate</item>
-        <item>Green</item>
-        <item>Orange</item>
-        <item>Purple</item>
-        <item>White</item>
-        <item>Yellow</item>
+        <item>Hitam</item>
+        <item>Coklat</item>
+        <item>Kuning Pucat</item>
+        <item>Cokelat</item>
+        <item>Hijau</item>
+        <item>Oranye</item>
+        <item>Ungu</item>
+        <item>Putih</item>
+        <item>Kuning</item>
     </string-array>
 
     <string-array name="gill_size">
-        <item>Broad</item>
-        <item>Narrow</item>
+        <item>Lebar</item>
+        <item>Sempit</item>
     </string-array>
 
     <string-array name="habitat">
-        <item>Grasses</item>
-        <item>Leaves</item>
-        <item>Meadows</item>
-        <item>Paths</item>
-        <item>Urban</item>
-        <item>Waste</item>
-        <item>Wood</item>
+        <item>Rerumputan</item>
+        <item>Dedaunan</item>
+        <item>Padang Rumput</item>
+        <item>Tepian Jalan</item>
+        <item>Perkotaan</item>
+        <item>Limbah</item>
+        <item>Hutan</item>
     </string-array>
 
     <string-array name="population">
-        <item>Several</item>
-        <item>Solitary</item>
-        <item>Scattered</item>
-        <item>Numerous</item>
-        <item>Abundant</item>
-        <item>Clustered</item>
+        <item>Beberapa</item>
+        <item>Tunggal</item>
+        <item>Tersebar</item>
+        <item>Banyak</item>
+        <item>Melimpah</item>
+        <item>Bergerombol</item>
     </string-array>
 
     <string-array name="ring_type">
-        <item>None</item>
-        <item>Pendant</item>
-        <item>Evanescent</item>
-        <item>Large</item>
-        <item>Flaring</item>
+        <item>Tidak Ada Cincin</item>
+        <item>Menggantung</item>
+        <item>Awalnya Ada Sekarang Menghilang</item>
+        <item>Besar</item>
+        <item>Cincin Membesar</item>
     </string-array>
 
     <string-array name="gill_color">
-        <item>Black</item>
-        <item>Brown</item>
-        <item>Buff</item>
-        <item>Chocolate</item>
-        <item>Gray</item>
-        <item>Pink</item>
-        <item>White</item>
-        <item>Yellow</item>
-        <item>Purple</item>
-        <item>Red</item>
-        <item>Orange</item>
-        <item>Green</item>
+        <item>Hitam</item>
+        <item>Coklat</item>
+        <item>Kuning Pucat</item>
+        <item>Cokelat</item>
+        <item>Abu-abu</item>
+        <item>Merah Muda</item>
+        <item>Putih</item>
+        <item>Kuning</item>
+        <item>Ungu</item>
+        <item>Merah</item>
+        <item>Oranye</item>
+        <item>Hijau</item>
     </string-array>
 
     <string-array name="ring_number">
