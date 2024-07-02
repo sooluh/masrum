@@ -1,4 +1,4 @@
-package id.my.suluh.masrum.ui
+package id.my.suluh.masrum.ui.fragment
 
 import android.content.Intent
 import android.net.Uri

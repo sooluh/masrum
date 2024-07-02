@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingBottom="65dp"
-    tools:context=".ui.DatasetFragment">
+    tools:context=".ui.fragment.DatasetFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,7 +51,7 @@
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="225dp"
                 android:fillViewport="true"
                 android:padding="16dp">
 
@@ -69,6 +69,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:gravity="center_horizontal"
             android:orientation="vertical">
 

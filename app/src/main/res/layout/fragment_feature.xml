@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingBottom="65dp"
-    tools:context=".ui.FeatureFragment">
+    tools:context=".ui.fragment.FeatureFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

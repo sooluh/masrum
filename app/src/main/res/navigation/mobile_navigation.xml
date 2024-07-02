@@ -7,31 +7,31 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="id.my.suluh.masrum.ui.HomeFragment"
+        android:name="id.my.suluh.masrum.ui.fragment.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dataset"
-        android:name="id.my.suluh.masrum.ui.DatasetFragment"
+        android:name="id.my.suluh.masrum.ui.fragment.DatasetFragment"
         android:label="@string/dataset"
         tools:layout="@layout/fragment_dataset" />
 
     <fragment
         android:id="@+id/navigation_feature"
-        android:name="id.my.suluh.masrum.ui.FeatureFragment"
+        android:name="id.my.suluh.masrum.ui.fragment.FeatureFragment"
         android:label="@string/feature"
         tools:layout="@layout/fragment_feature" />
 
     <fragment
         android:id="@+id/navigation_model"
-        android:name="id.my.suluh.masrum.ui.ModelFragment"
+        android:name="id.my.suluh.masrum.ui.fragment.ModelFragment"
         android:label="@string/model"
         tools:layout="@layout/fragment_model" />
 
     <fragment
         android:id="@+id/navigation_play"
-        android:name="id.my.suluh.masrum.ui.PlayFragment"
+        android:name="id.my.suluh.masrum.ui.fragment.PlayFragment"
         android:label="@string/play"
         tools:layout="@layout/fragment_play" />
 

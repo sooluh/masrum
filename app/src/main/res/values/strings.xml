@@ -49,5 +49,8 @@
     <string name="column_spore_print_color">spore-print-color</string>
     <string name="column_population">population</string>
     <string name="column_habitat">habitat</string>
+
     <string name="open_in_kaggle">Lihat di Kaggle</string>
+    <string name="lets_go">Let\'s Go</string>
+    <string name="app_description">Lorem Ipsum Dolor Sit Amet</string>
 </resources>
