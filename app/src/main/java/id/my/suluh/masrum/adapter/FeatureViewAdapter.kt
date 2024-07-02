@@ -34,4 +34,5 @@ class FeatureViewAdapter(private val features: List<FeatureModel>) :
         val description: TextView = itemView.findViewById(R.id.description)
         val dataType: TextView = itemView.findViewById(R.id.data_type)
     }
+
 }

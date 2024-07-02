@@ -23,10 +23,9 @@ import java.nio.channels.FileChannel
 class PlayFragment : Fragment() {
 
     private lateinit var binding: FragmentPlayBinding
-
     private lateinit var interpreter: Interpreter
-    private val modelPath = "masrum.tflite"
 
+    private val modelPath = "masrum.tflite"
     private var answers = Array(11) { "" }
 
     override fun onCreateView(

@@ -35,7 +35,7 @@ class PlayViewModel : ViewModel() {
         "Green" to 6
     )
 
-    private val bruisesValues = mapOf("Ya" to 1, "Tidak" to 0)
+    private val bruisesValues = mapOf("Yes" to 1, "No" to 0)
 
     private val gillSizeValues = mapOf("Narrow" to 1, "Broad" to 0)
 
@@ -54,7 +54,7 @@ class PlayViewModel : ViewModel() {
         "Orange" to 6
     )
 
-    private val ringNumberValues = mapOf("Satu" to 1, "Dua" to 2, "TidakAda" to 0)
+    private val ringNumberValues = mapOf("One" to 1, "Two" to 2, "None" to 0)
 
     private val ringTypeValues =
         mapOf("Pendant" to 4, "Evanescent" to 0, "Large" to 2, "Flaring" to 1, "None" to 3)

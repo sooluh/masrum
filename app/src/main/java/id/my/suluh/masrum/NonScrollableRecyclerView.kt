@@ -16,4 +16,5 @@ class NonScrollableRecyclerView @JvmOverloads constructor(
         )
         super.onMeasure(widthSpec, heightSpecCustom)
     }
+
 }

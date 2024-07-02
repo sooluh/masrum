@@ -108,4 +108,5 @@ class TableViewAdapter(private val featureLists: ArrayList<TableModel>) :
         val columnPopulation: TextView = itemView.findViewById(R.id.column_population)
         val columnHabitat: TextView = itemView.findViewById(R.id.column_habitat)
     }
+
 }
